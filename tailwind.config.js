@@ -2,7 +2,28 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        grow: {
+          "0%": { height: "0rem" },
+          "100%": { height: "8.5rem" },
+        },
+        shrink: {
+          "0%": { height: "8.5rem" },
+          "100%": { height: "0rem" },
+        },
+        float: {
+          "0%": { bottom: "5rem" },
+
+          "100%": { bottom: "5.5rem" },
+        },
+      },
+      animation: {
+        grow: "grow 200ms ease-in forwards",
+        shrink: "shrink 200ms ease-out forwards",
+        float: "float 500ms ease-in-out infinite alternate",
+      },
+    },
   },
   plugins: [],
 };

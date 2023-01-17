@@ -1,22 +1,28 @@
-import React, { useEffect } from "react";
-import Player from "../../components/Player";
-import Relic from "../../components/Relic";
+import React, { useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Environment, Lightformer } from "@react-three/drei";
+import AOA from "../../components/AOA";
+import ShaderPlane from "../../components/ShaderPlane";
+import Interface from "../../components/Interface";
+import Information from "../Information";
 
 const Home = () => {
   return (
-    <div className="bg-gray-900">
-      <Canvas
-        style={{
-          height: "100vh",
-          width: "100vw",
-        }}
-      >
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[-2, 5, 2]} intensity={1} />
-        <Relic />
-      </Canvas>
+    <div className="relative left">
+      <div className="absolute">
+        <Canvas style={{ width: "100vw", height: "100vh" }}>
+          <color attach="background" args={["#000000"]} />
+          <spotLight
+            position={[10, 22, 25]}
+            color={"white"}
+            intensity={3}
+            distance={200}
+          />
+          <AOA />
+          <ShaderPlane />
+        </Canvas>
+      </div>
+      <Interface />
+      <Information />
     </div>
   );
 };

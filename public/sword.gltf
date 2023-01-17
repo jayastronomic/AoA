@@ -1,0 +1,487 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1272,
+      "max": [0.24746499955654144, 0.09117700159549713, 8.82784366607666],
+      "min": [-0.24746499955654144, -0.09117700159549713, -0.4113849997520447],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 15264,
+      "componentType": 5126,
+      "count": 1272,
+      "max": [0.9999973773956299, 1.0, 0.9999802112579346],
+      "min": [-0.9999983310699463, -1.0, -1.0],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1272,
+      "max": [1.0, 0.9568071961402893, 1.0, 1.0],
+      "min": [
+        -0.9317529201507568, -0.9581887125968933, -0.006027886178344488, -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1272,
+      "max": [0.9706839919090271, 0.9999629855155945],
+      "min": [3.7000001611886546e-5, 3.7000001611886546e-5],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5196,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 30528,
+      "componentType": 5126,
+      "count": 62787,
+      "max": [0.21752199530601501, 0.08918199688196182, -0.5212000012397766],
+      "min": [-0.21752199530601501, -0.08918199688196182, -2.7257909774780273],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 783972,
+      "componentType": 5126,
+      "count": 62787,
+      "max": [0.9999984502792358, 0.9999998807907104, 1.0],
+      "min": [-0.9999984502792358, -0.9999998807907104, -0.9996110796928406],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 20352,
+      "componentType": 5126,
+      "count": 62787,
+      "max": [0.9999991059303284, 0.9999964833259583, 0.9999994039535522, 1.0],
+      "min": [
+        -0.9999702572822571, -0.9999982714653015, -0.9852340221405029, 1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10176,
+      "componentType": 5126,
+      "count": 62787,
+      "max": [0.9977399706840515, 0.9999480247497559],
+      "min": [5.199999941396527e-5, 5.199999941396527e-5],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 20784,
+      "componentType": 5125,
+      "count": 340986,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1537416,
+      "componentType": 5126,
+      "count": 4388,
+      "max": [1.0146809816360474, 0.15623199939727783, -0.031856000423431396],
+      "min": [-1.0146809816360474, -0.15623199939727783, -0.5513349771499634],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1590072,
+      "componentType": 5126,
+      "count": 4388,
+      "max": [1.0, 1.0, 1.0],
+      "min": [-1.0, -1.0, -1.0],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1024944,
+      "componentType": 5126,
+      "count": 4388,
+      "max": [1.0, 0.9961776733398438, 1.0, 1.0],
+      "min": [-0.9885085821151733, -0.9905052781105042, -1.0, -1.0],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 512472,
+      "componentType": 5126,
+      "count": 4388,
+      "max": [0.999970018863678, 0.9776719808578491],
+      "min": [2.9999999242136255e-5, 2.9999999242136255e-5],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1384728,
+      "componentType": 5125,
+      "count": 22542,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1642728,
+      "componentType": 5126,
+      "count": 8182,
+      "max": [0.25396499037742615, 0.15897099673748016, -2.581352949142456],
+      "min": [-0.25389400124549866, -0.1589680016040802, -3.042220115661621],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1740912,
+      "componentType": 5126,
+      "count": 8182,
+      "max": [0.9980279803276062, 0.9992698431015015, 0.999387264251709],
+      "min": [-0.9980924725532532, -0.999237596988678, -0.9993767738342285],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1095152,
+      "componentType": 5126,
+      "count": 8182,
+      "max": [1.0, 0.999991774559021, 0.7402499914169312, 1.0],
+      "min": [
+        -0.8775971531867981, -0.9935701489448547, -0.8473787903785706, -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 547576,
+      "componentType": 5126,
+      "count": 8182,
+      "max": [0.9643139839172363, 0.9999819993972778],
+      "min": [1.8000000636675395e-5, 1.8000000636675395e-5],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1474896,
+      "componentType": 5125,
+      "count": 44532,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Even Topland (https://sketchfab.com/even572)",
+      "license": "SKETCHFAB Editorial (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/damascus-steel-sword-fd3b7b70ee0e4479ac68624ed69d515f",
+      "title": "Damascus Steel Sword"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1653024,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 613032,
+      "byteOffset": 1653024,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1839096,
+      "byteOffset": 2266056,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1226064,
+      "byteOffset": 4105152,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5331216,
+      "uri": "sword.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "sword/Blade_baseColor.png"
+    },
+    {
+      "uri": "sword/Blade_metallicRoughness.png"
+    },
+    {
+      "uri": "sword/Blade_normal.png"
+    },
+    {
+      "uri": "sword/Grip_baseColor.png"
+    },
+    {
+      "uri": "sword/Grip_metallicRoughness.png"
+    },
+    {
+      "uri": "sword/Grip_normal.png"
+    },
+    {
+      "uri": "sword/Hilt_baseColor.png"
+    },
+    {
+      "uri": "sword/Hilt_metallicRoughness.png"
+    },
+    {
+      "uri": "sword/Hilt_normal.png"
+    },
+    {
+      "uri": "sword/material_baseColor.png"
+    },
+    {
+      "uri": "sword/material_metallicRoughness.png"
+    },
+    {
+      "uri": "sword/material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Blade",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Grip",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Hilt",
+      "normalTexture": {
+        "index": 8
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicRoughnessTexture": {
+          "index": 7
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "material",
+      "normalTexture": {
+        "index": 11
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 9
+        },
+        "metallicRoughnessTexture": {
+          "index": 10
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1],
+      "matrix": [
+        1.0, 0.0, 0.0, 0.0, 0.0, 2.220446049250313e-16, -1.0, 0.0, 0.0, 1.0,
+        2.220446049250313e-16, 0.0, 0.0, 0.0, 0.0, 1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [2, 3, 4, 5],
+      "name": "Sword_sketchfab.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 3,
+      "name": "Object_5"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [0]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    },
+    {
+      "sampler": 0,
+      "source": 9
+    },
+    {
+      "sampler": 0,
+      "source": 10
+    },
+    {
+      "sampler": 0,
+      "source": 11
+    }
+  ]
+}

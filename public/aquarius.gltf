@@ -1,0 +1,190 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 14219,
+      "max": [14.575203895568848, 12.07587718963623, 8.360062599182129],
+      "min": [-6.938069820404053, 1.755210041999817, -5.633959770202637],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 170628,
+      "componentType": 5126,
+      "count": 14219,
+      "max": [0.9995514154434204, 0.9999081492424011, 0.99984210729599],
+      "min": [-0.9995923042297363, -0.9999957084655762, -0.9999805092811584],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 14219,
+      "max": [0.9999755024909973, 0.999959409236908, 0.9995359778404236, 1.0],
+      "min": [
+        -0.9999677538871765, -0.9980726838111877, -0.9999599456787109, 1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 227504,
+      "componentType": 5126,
+      "count": 14219,
+      "max": [0.8901960849761963, 0.9058823585510254, 0.9529411792755127, 1.0],
+      "min": [0.0, 0.007843137718737125, 0.03529411926865578, 1.0],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 14219,
+      "max": [0.9130150079727173, 0.9999709725379944],
+      "min": [3.999999989900971e-6, 8.600000001024455e-5],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 75000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "atti1234 (https://sketchfab.com/atti1234)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/statue-aquarius-25k-560cb117b3cb4fbb9269e962204ccbb0",
+      "title": "Statue Aquarius 25k"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 300000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 113752,
+      "byteOffset": 300000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 341256,
+      "byteOffset": 413752,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 455008,
+      "byteOffset": 755008,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1210016,
+      "uri": "aquarius.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/StatueAquarius-25k_baseColor.png"
+    },
+    {
+      "uri": "textures/StatueAquarius-25k_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "StatueAquarius-25k",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1],
+      "matrix": [
+        -0.02032933011651039, -0.9997933506965637, -2.2199871956209177e-16, 0.0,
+        0.0, 2.220446049250313e-16, -1.0, 0.0, 0.9997933506965637,
+        -0.02032933011651039, -4.5140180741110905e-18, 0.0, 2.5334205627441406,
+        5.208543300628662, 1.1565289394230099e-15, 1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [2],
+      "name": "StatueAquarius-25k.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [0]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

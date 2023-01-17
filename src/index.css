@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "magz";
+  src: url("./fonts/Magz.otf");
+}
+
+.magz {
+  font-family: "magz";
+}
+
+@font-face {
+  font-family: "brightstar";
+  src: url("./fonts/brightstar.ttf");
+}
+
+.brightstar {
+  font-family: "brightstar";
+}
+
+@font-face {
+  font-family: "quicksilver-italics";
+  src: url("./fonts/quicksilver_3/Quicksilver\ Italic.otf");
+}
+
+.quicksilver-it {
+  font-family: "quicksilver-italics";
+}
+
+.hidescrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidescrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #000000,
+      0 0 80px #000000, 0 0 90px #000000, 0 0 100px #000000, 0 0 150px #000000;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.neonText {
+  color: #000000;
+  text-shadow: 0 0 7px #fff, 0 0 7px #fff, 0 0 42px #000000, 0 0 82px #000000,
+    0 0 92px #000000, 0 0 102px #000000, 0 0 151px #000000;
+}
+
+.flicker {
+  animation: flicker 3s infinite alternate;
+}
