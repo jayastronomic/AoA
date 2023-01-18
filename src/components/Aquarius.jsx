@@ -53,7 +53,7 @@ export function Model({ signal }) {
         ) : null}
         {signal === "left-full" ? (
           <Html
-            position={[8, -3, 1]}
+            position={[8, -0.5, 1]}
             rotation={[Math.PI / 2.1, 0, 1.6]}
             transform
             occlude
