@@ -2,12 +2,18 @@ export const faqs = [
   {
     question: "Whose party is this?",
     answer:
-      "Glad you asked. This nigga. He is celebrating his birthday, though this also is a celebration of everyone who comes to this party if he knows you or not. We are celebrating living in the Age of Aquarius and all the greatness that is coming in it.",
+      "I am glad you asked. My instagram is on the landing page if you wanna get a whif. I am celebrating my birthday, though this also is a celebration of everyone who comes to this party if I know you or not. We are celebrating living in the Age of Aquarius and all the greatness that is coming in it.",
+  },
+  {
+    question: "What does AOA mean?",
+    answer:
+      "AOA stands for Age of Aquarius. The Age of Aquarius is a term used to describe a time period associated with the astrological sign of Aquarius. Apparently, we are on the cusp of moving into the Age of Aquarius" +
+      " according to astrology. The exact timing of when it begins is not agreed upon, though some astrologers believe that we have already entered it, while others believe that it will begin in the future.",
   },
   {
     question: "What is the location?",
     answer:
-      "The location is on the southside of Chicago in Englewood. You will be celebrating in his caucasion home so please respect his house." +
+      "The location is on the southside of Chicago in Englewood. You will be celebrating in my caucasion home so please respect this house." +
       " The exact address will be dropped closer to the date of the event.",
   },
   {

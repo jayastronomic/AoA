@@ -10,8 +10,9 @@ Title: Statue Aquarius 25k
 import React, { useRef } from "react";
 import { useGLTF, Html } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
+import Countdown, { zeroPad } from "react-countdown";
 
-export function Model() {
+export function Model({ signal }) {
   const group = useRef();
   const mesh = useRef();
   const { nodes, materials } = useGLTF("/aquarius.gltf");
@@ -35,19 +36,43 @@ export function Model() {
         <meshPhysicalMaterial
           color={"black"}
           clearcoat={1}
-          clearcoatRoughness={0.2}
+          clearcoatRoughness={0.32}
           reflectivity={0.3}
         />
-        <Html
-          position={[4, -1, -0.05]}
-          rotation={[Math.PI / 1.6, 0, 1.6]}
-          transform
-          occlude
-        >
-          <div className="flex text-white bg-black bg-opacity-80 rounded-2xl border-white border px-4 text-xs space-x-2 py-1">
-            <span>Water</span> <span>Bearer</span>
-          </div>
-        </Html>
+        {signal === "left-full" ? (
+          <Html
+            position={[4, -1, -0.05]}
+            rotation={[Math.PI / 1.6, 0, 1.6]}
+            transform
+            occlude
+          >
+            <div className="flex text-white bg-black bg-opacity-80 rounded-2xl border-white border px-4 text-xs space-x-2 py-1">
+              <span>Water</span> <span>Bearer</span>
+            </div>
+          </Html>
+        ) : null}
+        {signal === "left-full" ? (
+          <Html
+            position={[8, -3, 1]}
+            rotation={[Math.PI / 2.1, 0, 1.6]}
+            transform
+            occlude
+          >
+            <div className="flex text-white bg-black bg-opacity-80 rounded-2xl border-white border px-4 text-xs space-x-2 py-1">
+              <Countdown
+                autoStart={true}
+                date={"Jan 29 2023"}
+                intervalDelay={0}
+                precision={3}
+                renderer={({ days, hours, minutes, seconds }) => (
+                  <div className="text-white">
+                    {zeroPad(days)}:{zeroPad(hours)}:{zeroPad(minutes)}
+                  </div>
+                )}
+              />
+            </div>
+          </Html>
+        ) : null}
       </mesh>
     </group>
   );
