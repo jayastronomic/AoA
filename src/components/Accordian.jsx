@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as FaIcon from "react-icons/fa";
-import mj from "../images/mj.png";
+import mj from "../images/mj.jpg";
 
 const Accordian = ({ faq, index }) => {
   const [rotate, setRotate] = useState("-rotate-90");
@@ -39,7 +39,7 @@ const Accordian = ({ faq, index }) => {
           {faq.answer}
           {faq.url !== undefined ? (
             <div className="flex h-40 w-40 rounded-full overflow-hidden ">
-              <img className="object-cover" src={mj} />
+              <img className="object-cover scale-150" src={mj} />
             </div>
           ) : null}
         </div>
