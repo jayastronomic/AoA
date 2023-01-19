@@ -5,12 +5,12 @@ module.exports = {
     extend: {
       keyframes: {
         grow: {
-          "0%": { height: "0rem" },
-          "100%": { height: "8.5rem" },
+          "0%": { "max-height": "0rem" },
+          "100%": { "max-height": "fit-content" },
         },
         shrink: {
-          "0%": { height: "8.5rem" },
-          "100%": { height: "0rem" },
+          "0%": { "max-height": "fit-content" },
+          "100%": { "max-height": "0rem" },
         },
         float: {
           "0%": { bottom: "5rem" },

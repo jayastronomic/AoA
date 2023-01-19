@@ -8,7 +8,7 @@ const Information = ({ setSignal }) => {
 
   return (
     <div
-      className={`fixed flex flex-col h-screen bg-black bg-opacity-70  items-center pt-20 w-full ${showInfo} transition-all duration-200 max-w-[40rem]`}
+      className={`absolute flex flex-col h-screen bg-black bg-opacity-70  items-center pt-20 w-full ${showInfo} transition-all duration-200 max-w-[40rem]`}
     >
       <section className="overflow-auto hidescrollbar">
         <button
@@ -48,7 +48,7 @@ const Information = ({ setSignal }) => {
         </div>
 
         <div className="px-4">
-          <h3 className="text-white brightstar text-center pb-4">FAQ</h3>
+          <h3 className="text-white brightstar text-center pb-4">FAQ'S</h3>
           <FAQContainer faqs={faqs} closeAllAccordians={closeAllAccordians} />
         </div>
         <div className="h-72"></div>

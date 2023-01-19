@@ -6,7 +6,7 @@ export function Sword() {
   const { nodes, materials } = useGLTF("/sword.gltf");
   return (
     <group
-      position={[-0.16, 0.36, -0.2]}
+      position={[-0.12, 0.36, -0.2]}
       scale={[0.135, 0.135, 0.135]}
       ref={group}
       dispose={null}

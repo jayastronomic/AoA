@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as FaIcon from "react-icons/fa";
-import me from "../images/me.jpg";
+import mj from "../images/mj.png";
 
 const Accordian = ({ faq, index }) => {
   const [rotate, setRotate] = useState("-rotate-90");
@@ -19,7 +19,7 @@ const Accordian = ({ faq, index }) => {
     }
   };
   return (
-    <div className="w-full border-b overflow-auto p-x4 ">
+    <div className="w-full border-b overflow-auto p-x4">
       <button
         onClick={() => toggleShow()}
         className={`flex justify-between w-full px-4 py-4 transition hover:bg-gray-800 ${isOpen}`}
@@ -33,11 +33,15 @@ const Accordian = ({ faq, index }) => {
       </button>
 
       <div
-        className={`transition flex justify-between  h-0 overflow-hidden ${change} w-full hidescrollbar  text-white px-4 bg-gray-900`}
+        className={`transition flex justify-between max-h-0 overflow-hidden ${change} w-full hidescrollbar  text-white px-4 bg-gray-900`}
       >
-        <div className="pt-2 overflow-auto hidescrollbar pb-2">
-          {" "}
+        <div className="pt-2 overflow-auto hidescrollbar pb-2 h-full">
           {faq.answer}
+          {faq.url !== undefined ? (
+            <div className="flex h-40 w-40 rounded-full overflow-hidden ">
+              <img className="object-cover" src={mj} />
+            </div>
+          ) : null}
         </div>
       </div>
     </div>

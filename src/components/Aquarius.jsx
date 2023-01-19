@@ -37,7 +37,7 @@ export function Model({ signal }) {
           color={"black"}
           clearcoat={1}
           clearcoatRoughness={0.32}
-          reflectivity={0.3}
+          reflectivity={0.32}
         />
         {signal === "left-full" ? (
           <Html
