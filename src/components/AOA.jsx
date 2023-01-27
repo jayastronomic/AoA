@@ -37,7 +37,7 @@ export default function AOA({ signal }) {
   };
 
   return (
-    <group ref={group} position={[0.1, 0.3, 1.0]}>
+    <group ref={group} position={[0.1, 0.2, 1.0]}>
       <mesh
         onPointerEnter={() => setColor("#1c1c1c")}
         onPointerLeave={() => setColor("black")}

@@ -2,13 +2,13 @@ import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import { FAQContainer } from "../containers/FAQS";
 import { faqs } from "../data/faqs";
-const Information = ({ setSignal }) => {
+const Information = ({ setSignal, zIndex, setZindex }) => {
   const [showInfo, setShowInfo] = useState("left-full");
   const [closeAllAccordians, setCloseAllAccordians] = useState();
 
   return (
     <div
-      className={`absolute flex flex-col h-screen bg-black bg-opacity-70  items-center pt-20 w-full ${showInfo} transition-all duration-200 max-w-[40rem]`}
+      className={`absolute flex flex-col h-screen bg-black bg-opacity-70  items-center pt-20 w-full ${showInfo} transition-all duration-200 max-w-[40rem] ${zIndex.info}`}
     >
       <section className="overflow-auto hidescrollbar">
         <button
@@ -16,6 +16,7 @@ const Information = ({ setSignal }) => {
             setShowInfo("left-full");
             setSignal("left-full");
             setCloseAllAccordians("");
+            setZindex({ address: "", info: "" });
           }}
           className="absolute top-4 right-4 hover:text-red-500 transition text-red-400"
         >
@@ -25,8 +26,9 @@ const Information = ({ setSignal }) => {
           onClick={() => {
             setShowInfo("left-0");
             setSignal("left-0");
+            setZindex({ address: "", info: "z-10" });
           }}
-          className="absolute text-white text-[0.70rem] -left-12 top-28 -rotate-90 bg-blue-900 p-2 bg-opacity-50 hover:text-blue-400 transition cursor-pointer rounded-t-lg "
+          className="absolute text-white text-[0.70rem] -left-12 top-72 -rotate-90 bg-blue-900 p-2 bg-opacity-50 hover:text-blue-400 transition cursor-pointer rounded-t-lg "
         >
           <span className="">I N F O</span>
         </button>

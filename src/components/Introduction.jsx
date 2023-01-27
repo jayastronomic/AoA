@@ -15,13 +15,16 @@ export const Introduction = () => {
             <span className="neonText">A</span>QUARIUS
           </span>
         </p>
-        <div className="absolute top-2 text-[0.6rem] font-serif">
+        {/* <div className="absolute top-2 text-[0.6rem] font-serif">
           {"(Drag the screen)"}
-        </div>
+        </div> */}
       </div>
       <div className="absolute top-24 flex text-[0.63rem] justify-between w-full px-6">
         <p>01/28</p>
         <p>9:00PM</p>
+      </div>
+      <div className="absolute top-1 neonText text-[.5rem]">
+        ALL BLACK PARTY
       </div>
     </div>
   );
