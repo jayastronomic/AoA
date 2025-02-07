@@ -27,7 +27,7 @@ const Interface = ({ setSignal }) => {
         setZindex={setZindex}
         zIndex={zIndex}
       />
-      <Address setSignal={setSignal} setZindex={setZindex} zIndex={zIndex} />
+      {/* <Address setSignal={setSignal} setZindex={setZindex} zIndex={zIndex} /> */}
     </div>
   );
 };
